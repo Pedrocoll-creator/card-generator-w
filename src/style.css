@@ -1,5 +1,38 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
+    background: green;
+}
+
+#card {
     background: white;
+    height: 400px;
+    width: 250px;  
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+    border: solid 2px black;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    padding: 10px;
+    font-size: 3rem;  
+}
+
+.valor {
+    display: flex;
+    justify-content: center;
+}
+
+.invertido {
+    transform: rotate(180deg);
+}
+
+.button{
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100px;
 }
